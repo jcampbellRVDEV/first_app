@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<launchConfiguration type="org.rubypeople.rdt.launching.LaunchConfigurationTypeRubyApplication">
+<stringAttribute key="org.eclipse.debug.ui.ATTR_CONSOLE_ENCODING" value="UTF-8"/>
+<booleanAttribute key="org.eclipse.debug.ui.private" value="true"/>
+<stringAttribute key="org.rubypeople.rdt.launching.FILE_NAME" value="C:\Rails\Ruby1.9.2\bin\rake"/>
+<stringAttribute key="org.rubypeople.rdt.launching.PROGRAM_ARGUMENTS" value="db:test:prepare "/>
+<stringAttribute key="org.rubypeople.rdt.launching.PROJECT_NAME" value="First_app_RadRails"/>
+<booleanAttribute key="org.rubypeople.rdt.launching.REQUIRES_REFRESH" value="true"/>
+<stringAttribute key="org.rubypeople.rdt.launching.TERMINAL_COMMAND" value="rake db:test:prepare "/>
+<stringAttribute key="org.rubypeople.rdt.launching.USE_TERMINAL" value="org.radrails.rails.shell"/>
+<stringAttribute key="org.rubypeople.rdt.launching.WORKING_DIRECTORY" value="C:\Documents and Settings\jcampbell\rails_projects\first_app\First_app_RadRails"/>
+<mapAttribute key="org.rubypeople.rdt.launchingVM_INSTALL_TYPE_SPECIFIC_ATTRS_MAP">
+<mapEntry key="org.rubypeople.rdt.launching.RUBY_COMMAND" value="ruby"/>
+</mapAttribute>
+</launchConfiguration>

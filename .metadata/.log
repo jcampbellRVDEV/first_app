@@ -1,0 +1,458 @@
+!SESSION 2012-01-03 13:13:01.467 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application com.aptana.ide.desktop.integration.Application -application com.aptana.ide.desktop.integration.Application
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application com.aptana.ide.desktop.integration.Application -data C:\Documents and Settings\jcampbell\rails_projects\first_app -application com.aptana.ide.desktop.integration.Application
+
+!ENTRY org.eclipse.ui.workbench 2 0 2012-01-03 13:13:05.905
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2012-01-03 13:13:05.905
+!MESSAGE Conflict for 'AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.RenameAction':
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.RenameAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.RenameAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6f947b),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.RenameAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.RenameAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6f947b),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2012-01-03 13:13:05.905
+!MESSAGE Conflict for 'AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.MoveFieldAction':
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.MoveFieldAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.MoveFieldAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6f947b),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.MoveFieldAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.MoveFieldAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6f947b),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2012-01-03 13:13:05.905
+!MESSAGE Conflict for 'AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction':
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6f947b),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@6f947b),sourcePriority=16384)
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:13:10.905
+!MESSAGE Failed to retrieve default libraries for C:\Program Files\Aptana\Aptana RadRails\plugins\org.jruby_1.2.0.9419p2
+
+!ENTRY org.rubypeople.rdt.core 4 0 2012-01-03 13:13:12.686
+!MESSAGE C:\Documents and Settings\jcampbell\rails_projects\first_app\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush\rdt_stream_sync.rb (The requested operation cannot be performed on a file with a user-mapped section open)
+!STACK 0
+java.io.FileNotFoundException: C:\Documents and Settings\jcampbell\rails_projects\first_app\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush\rdt_stream_sync.rb (The requested operation cannot be performed on a file with a user-mapped section open)
+	at java.io.FileOutputStream.open(Native Method)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at java.io.FileOutputStream.<init>(Unknown Source)
+	at org.rubypeople.rdt.core.RubyCore.copyToStateLocation(RubyCore.java:1872)
+	at org.rubypeople.rdt.core.RubyCore.copyToStateLocation(RubyCore.java:1850)
+	at org.rubypeople.rdt.internal.launching.LaunchingPlugin.getFileInPlugin(LaunchingPlugin.java:1071)
+	at org.rubypeople.rdt.internal.launching.StandardVMRunner.addStreamSync(StandardVMRunner.java:485)
+	at org.rubypeople.rdt.internal.launching.StandardVMRunner.run(StandardVMRunner.java:384)
+	at org.rubypeople.rdt.launching.RubyLaunchDelegate.launch(RubyLaunchDelegate.java:106)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:696)
+	at org.rubypeople.rdt.launching.RubyRuntime.launchInBackgroundAndRead(RubyRuntime.java:1836)
+	at com.aptana.rdt.internal.core.gems.GemManager.launchInBackgroundAndRead(GemManager.java:278)
+	at com.aptana.rdt.internal.core.gems.GemManager.launchInBackgroundAndRead(GemManager.java:283)
+	at com.aptana.rdt.internal.core.gems.GemManager.loadSourceURLs(GemManager.java:880)
+	at com.aptana.rdt.internal.core.gems.GemManager$2.run(GemManager.java:864)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:13:13.030
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2012-01-03 13:13:13.045
+!MESSAGE Starting: C:\Rails\Ruby1.9.2\bin\ruby.exe -I "C:\Documents and Settings\jcampbell\rails_projects\first_app\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush" -rrdt_stream_sync.rb -- C:\Rails\Ruby1.9.2\bin\gem sources -l
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:13:13.123
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2012-01-03 13:13:13.842
+!MESSAGE Starting: C:\Rails\Ruby1.9.2\bin\ruby.exe -I "C:\Documents and Settings\jcampbell\rails_projects\first_app\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush" -rrdt_stream_sync.rb -- C:\Rails\Ruby1.9.2\bin\gem -v
+
+!ENTRY com.aptana.ide.update 4 0 2012-01-03 13:13:29.936
+!MESSAGE Element type "catege" must be followed by either attribute specifications, ">" or "/>".
+!STACK 0
+org.xml.sax.SAXParseException: Element type "catege" must be followed by either attribute specifications, ">" or "/>".
+	at com.sun.org.apache.xerces.internal.parsers.AbstractSAXParser.parse(Unknown Source)
+	at com.sun.org.apache.xerces.internal.jaxp.SAXParserImpl$JAXPSAXParser.parse(Unknown Source)
+	at com.aptana.ide.internal.update.manager.AbstractPluginManager.parseXML(AbstractPluginManager.java:313)
+	at com.aptana.ide.internal.update.manager.AbstractPluginManager.cacheImages(AbstractPluginManager.java:186)
+	at com.aptana.ide.internal.update.manager.AbstractPluginManager.access$3(AbstractPluginManager.java:178)
+	at com.aptana.ide.internal.update.manager.AbstractPluginManager$1.run(AbstractPluginManager.java:127)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:13:32.389
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2012-01-03 13:13:32.389
+!MESSAGE Starting: C:\Rails\Ruby1.9.2\bin\ruby.exe -I "C:\Documents and Settings\jcampbell\rails_projects\first_app\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush" -rrdt_stream_sync.rb -- C:\Rails\Ruby1.9.2\bin\gem query -d
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:13:46.639
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:13:46.733
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:13:46.842
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:13:46.952
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:13:47.139
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:13:47.452
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:13:47.561
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:13:47.795
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:13:48.233
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:13:48.342
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:13:48.452
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:13:48.545
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY com.aptana.ide.core 4 0 2012-01-03 13:14:29.389
+!MESSAGE (Build 2.0.5.1278523018) [ERROR] An error occurred while shutting down the database
+!STACK 0
+java.sql.SQLException: No suitable driver found for jdbc:derby:aptanaDB;shutdown=true
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at java.sql.DriverManager.getConnection(Unknown Source)
+	at com.aptana.ide.core.db.AptanaDB.shutdown(AptanaDB.java:320)
+	at com.aptana.ide.core.AptanaCorePlugin.stop(AptanaCorePlugin.java:73)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl$2.run(BundleContextImpl.java:843)
+	at java.security.AccessController.doPrivileged(Native Method)
+	at org.eclipse.osgi.framework.internal.core.BundleContextImpl.stop(BundleContextImpl.java:836)
+	at org.eclipse.osgi.framework.internal.core.BundleHost.stopWorker(BundleHost.java:474)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.suspend(AbstractBundle.java:546)
+	at org.eclipse.osgi.framework.internal.core.Framework.suspendBundle(Framework.java:1098)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.decFWSL(StartLevelManager.java:593)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.doSetStartLevel(StartLevelManager.java:261)
+	at org.eclipse.osgi.framework.internal.core.StartLevelManager.shutdown(StartLevelManager.java:216)
+	at org.eclipse.osgi.framework.internal.core.InternalSystemBundle.suspend(InternalSystemBundle.java:266)
+	at org.eclipse.osgi.framework.internal.core.Framework.shutdown(Framework.java:685)
+	at org.eclipse.osgi.framework.internal.core.Framework.close(Framework.java:583)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.shutdown(EclipseStarter.java:409)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:200)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+!SESSION 2012-01-03 13:14:36.498 -----------------------------------------------
+eclipse.buildId=unknown
+java.version=1.6.0_20
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -application com.aptana.ide.desktop.integration.Application -application com.aptana.ide.desktop.integration.Application -application com.aptana.ide.desktop.integration.Application
+Command-line arguments:  -os win32 -ws win32 -arch x86 -application com.aptana.ide.desktop.integration.Application -application com.aptana.ide.desktop.integration.Application -data C:\Documents and Settings\jcampbell\rails_projects\first_app -application com.aptana.ide.desktop.integration.Application
+
+!ENTRY org.eclipse.ui.workbench 2 0 2012-01-03 13:14:40.623
+!MESSAGE A handler conflict occurred.  This may disable some commands.
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2012-01-03 13:14:40.623
+!MESSAGE Conflict for 'AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.RenameAction':
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.RenameAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.RenameAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@bb0406),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.RenameAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.RenameAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@bb0406),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2012-01-03 13:14:40.623
+!MESSAGE Conflict for 'AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.MoveFieldAction':
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.MoveFieldAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.MoveFieldAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@bb0406),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.MoveFieldAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.MoveFieldAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@bb0406),sourcePriority=16384)
+!SUBENTRY 1 org.eclipse.ui.workbench 2 0 2012-01-03 13:14:40.623
+!MESSAGE Conflict for 'AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction':
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@bb0406),sourcePriority=16384)
+HandlerActivation(commandId=AUTOGEN:::org.rubypeople.rdt.refactoring.refactoringContext/org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction,
+	handler=ActionDelegateHandlerProxy(null,org.rubypeople.rdt.refactoring.action.EncapsulateFieldAction),
+	expression=WorkbenchWindowExpression(org.eclipse.ui.internal.WorkbenchWindow@bb0406),sourcePriority=16384)
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:14:42.233
+!MESSAGE Failed to retrieve default libraries for C:\Program Files\Aptana\Aptana RadRails\plugins\org.jruby_1.2.0.9419p2
+
+!ENTRY org.eclipse.osgi 2 0 2012-01-03 13:14:46.077
+!MESSAGE While loading class "org.rubypeople.rdt.internal.debug.ui.ActionFilterAdapterFactory", thread "Thread[Worker-0,5,main]" timed out waiting (5000ms) for thread "Thread[Worker-2,5,main]" to finish starting bundle "org.rubypeople.rdt.debug.ui_1.3.2.1260312246 [250]". To avoid deadlock, thread "Thread[Worker-0,5,main]" is proceeding but "org.rubypeople.rdt.internal.debug.ui.ActionFilterAdapterFactory" may not be fully initialized.
+!STACK 0
+org.osgi.framework.BundleException: State change in progress for bundle "reference:file:plugins/org.rubypeople.rdt.debug.ui_1.3.2.1260312246.jar" by thread "Worker-2".
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.rubypeople.rdt.internal.debug.ui.RdtDebugUiPlugin$1.run(RdtDebugUiPlugin.java:186)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+Caused by: org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	... 14 more
+Root exception:
+org.eclipse.osgi.framework.internal.core.AbstractBundle$BundleStatusException
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.beginStateChange(AbstractBundle.java:1073)
+	at org.eclipse.osgi.framework.internal.core.AbstractBundle.start(AbstractBundle.java:278)
+	at org.eclipse.osgi.framework.util.SecureAction.start(SecureAction.java:408)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseLazyStarter.postFindLocalClass(EclipseLazyStarter.java:111)
+	at org.eclipse.osgi.baseadaptor.loader.ClasspathManager.findLocalClass(ClasspathManager.java:449)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.findLocalClass(DefaultClassLoader.java:211)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findLocalClass(BundleLoader.java:381)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClassInternal(BundleLoader.java:457)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:410)
+	at org.eclipse.osgi.internal.loader.BundleLoader.findClass(BundleLoader.java:398)
+	at org.eclipse.osgi.internal.baseadaptor.DefaultClassLoader.loadClass(DefaultClassLoader.java:105)
+	at java.lang.ClassLoader.loadClass(Unknown Source)
+	at org.rubypeople.rdt.internal.debug.ui.RdtDebugUiPlugin$1.run(RdtDebugUiPlugin.java:186)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:14:47.123
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2012-01-03 13:14:47.139
+!MESSAGE Starting: C:\Rails\Ruby1.9.2\bin\ruby.exe -I "C:\Documents and Settings\jcampbell\rails_projects\first_app\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush" -rrdt_stream_sync.rb -- C:\Rails\Ruby1.9.2\bin\gem sources -l
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:14:48.077
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2012-01-03 13:14:48.092
+!MESSAGE Starting: C:\Rails\Ruby1.9.2\bin\ruby.exe -I "C:\Documents and Settings\jcampbell\rails_projects\first_app\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush" -rrdt_stream_sync.rb -- C:\Rails\Ruby1.9.2\bin\gem -v
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:15:19.280
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2012-01-03 13:15:19.280
+!MESSAGE Starting: C:\Rails\Ruby1.9.2\bin\ruby.exe -I "C:\Documents and Settings\jcampbell\rails_projects\first_app\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush" -rrdt_stream_sync.rb -- C:\Rails\Ruby1.9.2\bin\gem query -d
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:15:27.545
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:15:27.655
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:15:27.795
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:15:27.905
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:15:28.030
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:15:28.373
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:15:28.498
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:15:28.623
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:15:28.748
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:15:28.936
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:15:29.077
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:15:29.186
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:18:35.733
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.radrails.rails.core 4 0 2012-01-03 13:21:07.217
+!MESSAGE Error running the server command
+!STACK 1
+org.eclipse.core.runtime.CoreException: File to launch does not exist: 'script/server'
+	at org.rubypeople.rdt.launching.AbstractRubyLaunchConfigurationDelegate.abort(AbstractRubyLaunchConfigurationDelegate.java:47)
+	at org.rubypeople.rdt.launching.AbstractRubyLaunchConfigurationDelegate.verifyFileToLaunch(AbstractRubyLaunchConfigurationDelegate.java:395)
+	at org.rubypeople.rdt.launching.RubyLaunchDelegate.launch(RubyLaunchDelegate.java:50)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:696)
+	at org.radrails.server.core.Server.startServer(Server.java:761)
+	at org.radrails.server.core.Server.access$2(Server.java:732)
+	at org.radrails.server.core.Server$9.run(Server.java:1199)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.rubypeople.rdt.launching 4 101 2012-01-03 13:21:07.217
+!MESSAGE File to launch does not exist: 'script/server'
+
+!ENTRY org.eclipse.ui 4 0 2012-01-03 13:21:09.967
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.ClassCastException: org.eclipse.core.internal.resources.Project cannot be cast to org.eclipse.core.resources.IFile
+	at org.rubypeople.rdt.internal.debug.ui.launcher.RubyApplicationShortcut.findOrCreateLaunchConfiguration(RubyApplicationShortcut.java:257)
+	at org.rubypeople.rdt.internal.debug.ui.launcher.RubyApplicationShortcut.doLaunch(RubyApplicationShortcut.java:229)
+	at org.rubypeople.rdt.internal.debug.ui.launcher.RubyApplicationShortcut.doLaunchWithErrorHandling(RubyApplicationShortcut.java:82)
+	at org.rubypeople.rdt.internal.debug.ui.launcher.RubyApplicationShortcut.launch(RubyApplicationShortcut.java:73)
+	at org.eclipse.debug.internal.ui.launchConfigurations.LaunchShortcutExtension.launch(LaunchShortcutExtension.java:434)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launchShortcut(ContextRunner.java:218)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.showShortcutSelectionDialog(ContextRunner.java:284)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.selectAndLaunch(ContextRunner.java:138)
+	at org.eclipse.debug.internal.ui.contextlaunching.ContextRunner.launch(ContextRunner.java:81)
+	at org.eclipse.debug.ui.actions.AbstractLaunchToolbarAction.run(AbstractLaunchToolbarAction.java:80)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:251)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:229)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$6.handleEvent(ActionContributionItem.java:452)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3910)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3503)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.aptana.radrails.rcp.IDEApplication.start(IDEApplication.java:121)
+	at com.aptana.ide.desktop.integration.Application.start(Application.java:56)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+
+!ENTRY org.radrails.rails.core 4 0 2012-01-03 13:21:14.389
+!MESSAGE Error running the server command
+!STACK 1
+org.eclipse.core.runtime.CoreException: File to launch does not exist: 'script/server'
+	at org.rubypeople.rdt.launching.AbstractRubyLaunchConfigurationDelegate.abort(AbstractRubyLaunchConfigurationDelegate.java:47)
+	at org.rubypeople.rdt.launching.AbstractRubyLaunchConfigurationDelegate.verifyFileToLaunch(AbstractRubyLaunchConfigurationDelegate.java:395)
+	at org.rubypeople.rdt.launching.RubyLaunchDelegate.launch(RubyLaunchDelegate.java:50)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:696)
+	at org.radrails.server.core.Server.startServer(Server.java:761)
+	at org.radrails.server.core.Server.access$2(Server.java:732)
+	at org.radrails.server.core.Server$9.run(Server.java:1199)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.rubypeople.rdt.launching 4 101 2012-01-03 13:21:14.389
+!MESSAGE File to launch does not exist: 'script/server'
+
+!ENTRY org.eclipse.core.expressions 4 201 2012-01-03 13:21:16.467
+!MESSAGE No property tester contributes a property com.aptana.ide.core.ui.nature to type class org.rubypeople.rdt.internal.core.RubyProject
+!STACK 1
+org.eclipse.core.runtime.CoreException: No property tester contributes a property com.aptana.ide.core.ui.nature to type class org.rubypeople.rdt.internal.core.RubyProject
+	at org.eclipse.core.internal.expressions.TypeExtensionManager.getProperty(TypeExtensionManager.java:123)
+	at org.eclipse.core.internal.expressions.TestExpression.evaluate(TestExpression.java:96)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateOr(CompositeExpression.java:68)
+	at org.eclipse.core.internal.expressions.OrExpression.evaluate(OrExpression.java:21)
+	at org.eclipse.core.internal.expressions.CompositeExpression.evaluateAnd(CompositeExpression.java:53)
+	at org.eclipse.core.internal.expressions.AndExpression.evaluate(AndExpression.java:29)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.failsEnablement(RegistryPageContributor.java:260)
+	at org.eclipse.ui.internal.dialogs.RegistryPageContributor.isApplicableTo(RegistryPageContributor.java:209)
+	at org.eclipse.ui.internal.dialogs.PropertyPageContributorManager.getApplicableContributors(PropertyPageContributorManager.java:199)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.hasPropertyPagesFor(PropertyDialogAction.java:104)
+	at org.eclipse.ui.dialogs.PropertyDialogAction.isApplicableForSelection(PropertyDialogAction.java:146)
+	at org.rubypeople.rdt.ui.actions.OpenViewActionGroup.fillContextMenu(OpenViewActionGroup.java:219)
+	at org.rubypeople.rdt.ui.actions.NavigateActionGroup.fillContextMenu(NavigateActionGroup.java:83)
+	at org.rubypeople.rdt.internal.ui.actions.CompositeActionGroup.fillContextMenu(CompositeActionGroup.java:77)
+	at org.rubypeople.rdt.internal.ui.packageview.RubyExplorerActionGroup.fillContextMenu(RubyExplorerActionGroup.java:220)
+	at org.rubypeople.rdt.internal.ui.packageview.PackageExplorerPart.menuAboutToShow(PackageExplorerPart.java:895)
+	at org.eclipse.jface.action.MenuManager.fireAboutToShow(MenuManager.java:338)
+	at org.eclipse.jface.action.MenuManager.handleAboutToShow(MenuManager.java:469)
+	at org.eclipse.jface.action.MenuManager.access$1(MenuManager.java:465)
+	at org.eclipse.jface.action.MenuManager$2.menuShown(MenuManager.java:491)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:235)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1003)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1027)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1008)
+	at org.eclipse.swt.widgets.Control.WM_INITMENUPOPUP(Control.java:4270)
+	at org.eclipse.swt.widgets.Control.windowProc(Control.java:3974)
+	at org.eclipse.swt.widgets.Canvas.windowProc(Canvas.java:342)
+	at org.eclipse.swt.widgets.Decorations.windowProc(Decorations.java:1578)
+	at org.eclipse.swt.widgets.Shell.windowProc(Shell.java:2010)
+	at org.eclipse.swt.widgets.Display.windowProc(Display.java:4619)
+	at org.eclipse.swt.internal.win32.OS.TrackPopupMenu(Native Method)
+	at org.eclipse.swt.widgets.Menu._setVisible(Menu.java:254)
+	at org.eclipse.swt.widgets.Display.runPopups(Display.java:3936)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3497)
+	at org.eclipse.ui.internal.Workbench.runEventLoop(Workbench.java:2405)
+	at org.eclipse.ui.internal.Workbench.runUI(Workbench.java:2369)
+	at org.eclipse.ui.internal.Workbench.access$4(Workbench.java:2221)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:500)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:493)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:149)
+	at com.aptana.radrails.rcp.IDEApplication.start(IDEApplication.java:121)
+	at com.aptana.ide.desktop.integration.Application.start(Application.java:56)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:194)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:368)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:179)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:559)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:514)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1311)
+!SUBENTRY 1 org.eclipse.core.expressions 4 201 2012-01-03 13:21:16.467
+!MESSAGE No property tester contributes a property com.aptana.ide.core.ui.nature to type class org.rubypeople.rdt.internal.core.RubyProject
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:21:35.530
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2012-01-03 13:21:35.561
+!MESSAGE Starting: C:\Rails\Ruby1.9.2\bin\ruby.exe -I "C:\Documents and Settings\jcampbell\rails_projects\first_app\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush" -rrdt_stream_sync.rb -- C:\Rails\Ruby1.9.2\bin\rake db:test:prepare in working dir: C:\Documents and Settings\jcampbell\rails_projects\first_app\First_app_RadRails
+
+!ENTRY org.rubypeople.rdt.launching 4 4 2012-01-03 13:22:35.139
+!MESSAGE Failed to retrieve platform for C:\Rails\Ruby1.9.2
+
+!ENTRY org.rubypeople.rdt.launching 1 -1 2012-01-03 13:22:35.139
+!MESSAGE Starting: C:\Rails\Ruby1.9.2\bin\rubyw.exe -I "C:\Documents and Settings\jcampbell\rails_projects\first_app\.metadata\.plugins\org.rubypeople.rdt.launching\ruby\flush" -rrdt_stream_sync.rb -- "C:/Documents and Settings/jcampbell/rails_projects/first_app/.metadata/.plugins/org.rubypeople.rdt.testunit/ruby/RemoteTestRunner.rb" "C:\Documents and Settings\jcampbell\rails_projects\first_app\.metadata\.plugins\org.radrails.rails.core\run_tests.rb" 4440 false in working dir: C:\Documents and Settings\jcampbell\rails_projects\first_app\First_app_RadRails
+
+!ENTRY org.radrails.rails.core 4 0 2012-01-03 14:18:47.169
+!MESSAGE Error running the server command
+!STACK 1
+org.eclipse.core.runtime.CoreException: File to launch does not exist: 'script/server'
+	at org.rubypeople.rdt.launching.AbstractRubyLaunchConfigurationDelegate.abort(AbstractRubyLaunchConfigurationDelegate.java:47)
+	at org.rubypeople.rdt.launching.AbstractRubyLaunchConfigurationDelegate.verifyFileToLaunch(AbstractRubyLaunchConfigurationDelegate.java:395)
+	at org.rubypeople.rdt.launching.RubyLaunchDelegate.launch(RubyLaunchDelegate.java:50)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:853)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:696)
+	at org.radrails.server.core.Server.startServer(Server.java:761)
+	at org.radrails.server.core.Server.access$2(Server.java:732)
+	at org.radrails.server.core.Server$9.run(Server.java:1199)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:55)
+!SUBENTRY 1 org.rubypeople.rdt.launching 4 101 2012-01-03 14:18:47.169
+!MESSAGE File to launch does not exist: 'script/server'

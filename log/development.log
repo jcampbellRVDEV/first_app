@@ -1,0 +1,40 @@
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-01-03 08:48:51 -0500
+Served asset /rails.png - 304 Not Modified (640ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-01-03 08:49:36 -0500
+Served asset /rails.png - 304 Not Modified (0ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2012-01-03 09:07:26 -0500
+  Processing by Rails::InfoController#properties as HTML
+Rendered inline template (125.0ms)
+Completed 200 OK in 500ms (Views: 500.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-01-03 09:11:36 -0500
+Served asset /rails.png - 304 Not Modified (15ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2012-01-03 11:00:13 -0500
+  Processing by Rails::InfoController#properties as HTML
+Rendered inline template (406.2ms)
+Completed 200 OK in 516ms (Views: 515.6ms | ActiveRecord: 0.0ms)
+  [1m[36m (0.0ms)[0m  [1mselect sqlite_version(*)[0m
+  [1m[35m (578.1ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (296.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+
+
+Started GET "/assets/rails.png" for 127.0.0.1 at 2012-01-03 14:14:51 -0500
+Served asset /rails.png - 304 Not Modified (93ms)
+
+
+Started GET "/rails/info/properties" for 127.0.0.1 at 2012-01-03 14:14:56 -0500
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  Processing by Rails::InfoController#properties as HTML
+Rendered inline template (93.8ms)
+Completed 200 OK in 391ms (Views: 390.6ms | ActiveRecord: 0.0ms)
