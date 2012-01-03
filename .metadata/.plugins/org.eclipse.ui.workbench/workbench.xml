@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<workbench progressCount="15" version="2.0">
+<workbench progressCount="9" version="2.0">
 <workbenchAdvisor/>
 <window height="940" width="1200" x="110" y="110">
 <fastViewData fastViewLocation="1024"/>
@@ -12,12 +12,15 @@
 <coolItem id="additions" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.debug.ui.launchActionSet" itemType="typeToolBarContribution" x="124" y="22"/>
 <coolItem id="org.eclipse.search.searchActionSet" itemType="typeToolBarContribution" x="52" y="22"/>
+<coolItem id="org.eclipse.ui.edit.text.actionSet.presentation" itemType="typeToolBarContribution" x="62" y="22"/>
 <coolItem id="org.radrails.rails.ui.RailsElementCreationActionSet" itemType="typeToolBarContribution" x="38" y="22"/>
 <coolItem id="org.radrails.rails.ui.railsActions" itemType="typeToolBarContribution" x="119" y="22"/>
-<coolItem id="s.com.aptana.ide.core.ui.actionSet.ShowAptanaView" itemType="typeToolBarContribution" x="160" y="22"/>
+<coolItem id="s.com.aptana.ide.core.ui.actionSet.ShowAptanaView" itemType="typeToolBarContribution" x="124" y="22"/>
 <coolItem id="group.nav" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.navigate" itemType="typeToolBarContribution" x="183" y="22"/>
 <coolItem id="group.editor" itemType="typeGroupMarker"/>
+<coolItem id="org.eclipse.ui.DefaultTextEditor" itemType="typePlaceholder" x="-1" y="-1"/>
+<coolItem id="org.rubypeople.rdt.ui.EditorRubyFile" itemType="typeToolBarContribution" x="-1" y="-1"/>
 <coolItem id="group.help" itemType="typeGroupMarker"/>
 <coolItem id="org.eclipse.ui.workbench.help" itemType="typeToolBarContribution" x="-1" y="-1"/>
 </coolbarLayout>
@@ -28,12 +31,23 @@
 <folder appearance="1" expanded="2">
 <presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
 <part id="0"/>
+<part id="1"/>
 </presentation>
 </folder>
 </info>
 </editorArea>
+<editor activePart="true" focus="true" id="org.rubypeople.rdt.ui.EditorRubyFile" name="RemoteTestRunner.rb" partName="RemoteTestRunner.rb" title="RemoteTestRunner.rb" tooltip="C:\Documents and Settings\jcampbell\rails_projects\first_app\.metadata\.plugins\org.rubypeople.rdt.testunit\ruby\RemoteTestRunner.rb" workbook="DefaultEditorWorkbook">
+<input factoryID="org.rubypeople.rdt.ui.externalRubyFileEditorInputFactory" path="C:\Documents and Settings\jcampbell\rails_projects\first_app\.metadata\.plugins\org.rubypeople.rdt.testunit\ruby\RemoteTestRunner.rb"/>
+<editorState selectionHorizontalPixel="0" selectionLength="41" selectionOffset="20" selectionTopPixel="0"/>
+</editor>
 </editors>
 <views>
+<view id="org.eclipse.ui.console.ConsoleView" partName="Console">
+<viewState/>
+</view>
+<view id="org.rubypeople.rdt.testunit.views.TestUnitView" partName="Test::Unit">
+<viewState/>
+</view>
 <view id="org.eclipse.ui.views.ContentOutline" partName="Outline">
 <viewState/>
 </view>
@@ -58,7 +72,7 @@
 </viewState>
 </view>
 </views>
-<perspectives activePart="org.rubypeople.rdt.ui.RubyExplorer" activePerspective="org.radrails.rails.ui.PerspectiveRails">
+<perspectives activePart="org.rubypeople.rdt.ui.EditorRubyFile" activePerspective="org.radrails.rails.ui.PerspectiveRails">
 <perspective editorAreaTrimState="2" editorAreaVisible="1" fixed="0" version="0.016">
 <descriptor class="org.radrails.rails.internal.ui.RailsPerspectiveFactory" id="org.radrails.rails.ui.PerspectiveRails" label="RadRails"/>
 <alwaysOnActionSet id="a.com.aptana.ide.core.ui.actionSet.ShowRadRails"/>
@@ -120,6 +134,8 @@
 <hide_toolbar_item_id id="org.eclipse.ui.edit.text.toggleShowSelectedElementOnly"/>
 <view id="org.rubypeople.rdt.ui.RubyExplorer"/>
 <view id="org.eclipse.ui.views.ContentOutline"/>
+<view id="org.eclipse.ui.console.ConsoleView"/>
+<view id="org.rubypeople.rdt.testunit.views.TestUnitView"/>
 <fastViewBars/>
 <layout>
 <mainWindow>
@@ -140,10 +156,11 @@
 </info>
 <info part="org.eclipse.ui.editorss" ratio="0.19932432" ratioLeft="236" ratioRight="948" relationship="2" relative="topLeft"/>
 <info folder="true" part="consoleArea" ratio="0.74969625" ratioLeft="617" ratioRight="206" relationship="4" relative="org.eclipse.ui.editorss">
-<folder appearance="2" expanded="2">
+<folder activePageID="org.eclipse.ui.console.ConsoleView" appearance="2" expanded="2">
+<page content="org.eclipse.ui.console.ConsoleView" label="Console"/>
+<page content="org.rubypeople.rdt.testunit.views.TestUnitView" label="Test::Unit"/>
 <page content="org.radrails.rails.ui.ViewGenerators" label="LabelNotFound"/>
 <page content="org.radrails.rails.ui.ViewRailsPlugins" label="LabelNotFound"/>
-<page content="org.eclipse.ui.console.ConsoleView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProblemView" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.TaskList" label="LabelNotFound"/>
 <page content="com.aptana.ide.logging.LogView" label="LabelNotFound"/>
@@ -154,6 +171,10 @@
 <page content="org.rubypeople.rdt.ui.views.RIView" label="LabelNotFound"/>
 <page content="com.aptana.gems.ui.ViewGems" label="LabelNotFound"/>
 <page content="org.eclipse.ui.views.ProgressView" label="LabelNotFound"/>
+<presentation id="org.eclipse.ui.presentations.WorkbenchPresentationFactory">
+<part id="0"/>
+<part id="1"/>
+</presentation>
 </folder>
 </info>
 <info folder="true" part="topRight" ratio="0.59902793" ratioLeft="493" ratioRight="330" relationship="4" relative="topLeft">
@@ -173,8 +194,25 @@
 <navigationHistory>
 <editors>
 <editor factoryID="com.aptana.ide.server.portal.ui.MyAptanaElementFactory" id="com.aptana.ide.server.portal.ui.MyAptanaEditor"/>
+<editor factoryID="com.aptana.radrails.MyRadRailsElementFactory" id="com.aptana.radrails.MyRadRailsEditor"/>
+<editor factoryID="org.rubypeople.rdt.ui.externalRubyFileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" path="C:\Documents and Settings\jcampbell\rails_projects\first_app\.metadata\.plugins\org.rubypeople.rdt.testunit\ruby\RemoteTestRunner.rb"/>
+<editor factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" uri="file:/C:/Documents%20and%20Settings/jcampbell/rails_projects/first_app/Gemfile"/>
 </editors>
-<item active="true" historyLabel="My Studio" index="0"/>
+<item historyLabel="My Studio" index="0"/>
+<item historyLabel="My RadRails" index="1"/>
+<item historyLabel="RemoteTestRunner.rb" index="2">
+<position info="not_deleted" x="20" y="41"/>
+</item>
+<item historyLabel="My RadRails" index="1"/>
+<item historyLabel="RemoteTestRunner.rb" index="2">
+<position info="not_deleted" x="20" y="41"/>
+</item>
+<item historyLabel="Gemfile" index="3">
+<position info="not_deleted" x="262" y="0"/>
+</item>
+<item active="true" historyLabel="RemoteTestRunner.rb" index="2">
+<position info="not_deleted" x="20" y="41"/>
+</item>
 </navigationHistory>
 <input factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/" type="8"/>
 </page>
@@ -192,5 +230,12 @@
 </trimArea>
 </trimLayout>
 </window>
-<mruList/>
+<mruList>
+<file factoryID="org.eclipse.ui.ide.FileStoreEditorInputFactory" id="org.eclipse.ui.DefaultTextEditor" name="Gemfile" tooltip="C:\Documents and Settings\jcampbell\rails_projects\first_app\Gemfile">
+<persistable uri="file:/C:/Documents%20and%20Settings/jcampbell/rails_projects/first_app/Gemfile"/>
+</file>
+<file factoryID="org.rubypeople.rdt.ui.externalRubyFileEditorInputFactory" id="org.rubypeople.rdt.ui.EditorRubyFile" name="RemoteTestRunner.rb" tooltip="C:\Documents and Settings\jcampbell\rails_projects\first_app\.metadata\.plugins\org.rubypeople.rdt.testunit\ruby\RemoteTestRunner.rb">
+<persistable path="C:\Documents and Settings\jcampbell\rails_projects\first_app\.metadata\.plugins\org.rubypeople.rdt.testunit\ruby\RemoteTestRunner.rb"/>
+</file>
+</mruList>
 </workbench>
